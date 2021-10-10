@@ -12,53 +12,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"></header>
-    <a href="#" class="appson d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-        AppSon
-    </a>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="#" class="logo d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            AppSon
+        </a>
         <div class="container">
-                <img class="img" src="img/bg.png" alt="">
-                <ul class="nav nav-pills">
+                <ul class="nav nav-pills d-flex justify-content-end">
                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#price" class="nav-link">Pricing</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
+                    <li class="nav-item btnSign"><a class="nav-link">SIGN UP</a></li>
                 </ul>
-                <a class="btnSign">SIGN UP</a></li>
-  </div>
-</header>
-<a href="#" class="arrow"><img src="img/Arrow.png" alt="arrow"></a>
-<section class="home" id="home">
-    <div class="container">
-    <div class="home-text">
-        <h1>Best Desktop App for You</h1>
-        <p class="home-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="main">            
+        <div class="home-text">
+            <h1>Best Desktop App for You</h1>
+            <p class="home-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="buttonsMain">
+            <a href="#" class="btnMain-active">Download</a>
+            <a href="#" class="btnMain">Free Trial</a>
+        </div>
     </div>
-    <div class="buttons">
-        <a href="#" class="btnMain-active">Download</a>
-        <a href="#" class="btnMain">Free Trial</a>
-    </div>
-    <img src="img/Devices.png" alt="" class="phone">
-    </div>
-</section>
-<img src="img/Ellipse6.png" class="ellipse" alt="ellipse">
-<a href="#" class="arrow">
-    <img src="img/Arrow.png" alt="arrow">
-</a>
+        <img src="img/Devices.png" alt="" class="phone">
+        </div>  
+    </header>
 <section class="features" id="features">
     <div class="container">
-        <div class="introFet">
-            <div class="first">
+        <div class="introFet d-flex justify-content-evenly">
+            <div class="itemFeat">
                 <img src="img/features1.png" alt="features1">
                 <h2>Analysis</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
             </div>
-            <div class="second">
+            <div class="itemFeat second">
                 <img src="img/features2.png" alt="features2">
                 <h2>Clean Design</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
             </div>
-            <div class="third">
+            <div class="itemFeat">
                 <img src="img/features3.png" alt="features3">
                 <h2>Messaging</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
@@ -66,23 +58,22 @@
         </div>
     </div>
 </section>
-
 <section class="communication" id="communication">
     <div class="container">
         <div class="commun">
-            <div class="girl">
+            <div class="girl d-flex">
                 <img src="img/girl.png" class="girl-img" alt="Girl">
                 <div class="girl-text">
                     <h2>Easy Messaging</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#">Read More</a><img src="img/Arrow2.png" alt="arrow">
+                    <a href="#" class="readMore">Read More</a><img src="img/Arrow2.png" alt="arrow">
                 </div>
             </div>
-            <div class="guy">
+            <div class="guy d-flex">
                 <div class="guy-text">
                     <h2>Keep In Touch</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#">Read More </a> <img src="img/Arrow2.png" alt="arrow">
+                    <a href="#" class="readMore">Read More</a><img src="img/Arrow2.png" alt="arrow">
                 </div>
                 <img src="img/guy.png" class="guy-img" alt="Guy">
             </div>
@@ -95,19 +86,19 @@
             <h2>How Does It Works?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</p>
         </div>
-        <div class="work-block">
-            <img src="img/Line.png" class="line" alt="Line">
-            <div class="first-block">
+        <img src="img/Line.png" class="line" alt="Line">
+        <div class="work-block d-flex justify-content-evenly">
+            <div class="itemWork">
                 <img src="img/works1.png" alt="works1">
                 <h2>Create An Account</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
             </div>
-            <div class="second-block">
+            <div class="itemWork">
                 <img src="img/works2.png" alt="works2">
                 <h2>Confirm Email</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
             </div>
-            <div class="third-block">
+            <div class="itemWork">
                 <img src="img/works3.png" alt="works3">
                 <h2>See Results</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
@@ -117,93 +108,102 @@
 </section>
 <section class="price" id="price">
     <div class="container">
-        <div class="price-block">
+        <div class="price-block d-flex">
             <div class="plan">
                 <h2>Pricing Plan</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</p>
-                <div class="btns">
-                <a href="#" class="btnPrice-active">Mounthy</a><a href="#" class="btnPrice">Yerly</a>
+                <div class="btns d-flex">
+                <div class="btnPrice-active">
+                <a href="#">Mounthy</a>
+                </div>
+                <div class="btnPrice">
+                <a href="#">Yerly</a>
+                </div>
                 </div>
             </div>
-            <div class="pricing">
-                <div class="premium">
+            <div class="pricing d-flex">
+                <div class="priceCard">
                     <img src="img/rocket.png" alt="rocket">
-                    <h2>Premium</h2>
+                    <h2 class="namePrice">Premium</h2>
                     <img src="img/Line1.png" alt="line1">
                     <p>2gb Hosting<br>
                         10 Custom Domain<br>
                         SSD Hosting<br>
                         50 gb Bandwith<br>
                         Free Support</p>
-                    <h2><span>$</span>49.00</h2>
-                    <a href="#" class="btnBuy-active">Try Now</a>
+                    <h2 class="headPrice"><span>$</span>49.00</h2>
+                    <div class="btnMain-active">
+                        <a href="#">Try Now</a>
+                    </div>
                 </div>
-                <div class="standart">
+                <div class="priceCard">
                     <img src="img/rocket.png" alt="rocket">
-                    <h2>Standart</h2>
+                    <h2 class="namePrice">Standart</h2>
                     <img src="img/Line1.png" alt="line1">
                     <p>2gb Hosting<br>
                         10 Custom Domain<br>
                         SSD Hosting<br>
                         50 gb Bandwith<br>
                         Free Support</p>
-                    <h2><span>$</span>19.00</h2>
-                    <a href="#" class="btnBuy">Try Now</a>
+                    <h2 class="headPrice"><span>$</span>19.00</h2>
+                    <div class="btnMain">
+                        <a href="#">Try Now</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     </div>
 </section>
-<section class="slider" id="slider">
+<section class="slider d-flex" id="slider">
     <img src="img/slider.png" class="sliderImg" alt="slider">
     <div class="container">
         <div class="sliderAll">
-        <div class="slider-text">
-            <h2>Trusted By More Than 55M Peoples</h2>
-        </div>
-            <div class="slider-carousel">
-                <div class="slider-content1">
-                    <div class="slider-carousel-text">
-                        <h3>Raisa Moni</h3>
-                        <p>Envato Customer</p>
-                        <img src="img/twit.png" alt="twit">    
+            <div class="slider-text">
+                <h2>Trusted By More Than 55M Peoples</h2>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper d-flex">
+                  <div class="swiper-slide">
+                      <div class="name d-flex align-items-center">
+                          <div class="nameText">
+                              <h5>Raisa Moni</h5>
+                              <p>Envato Customer</p>
+                          </div>
+                          <img src="img/twit.png" class="twit" alt="Twit">
+                      </div>
+                      <p class="review">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="name d-flex align-items-center">
+                        <div class="nameText">
+                            <h5>Raisa Moni</h5>
+                            <p>Envato Customer</p>
+                        </div>
+                        <img src="img/twit.png" class="twit" alt="Twit">
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
-                </div>
-                <div class="slider-content2">
-                    <div class="slider-carousel-text">
-                        <h3>Raisa Moni</h3>
-                        <p>Envato Customer</p>
-                        <img src="img/twit.png" alt="twit">    
+                    <p class="review">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="name d-flex align-items-center">
+                        <div class="nameText">
+                            <h5>Raisa Moni</h5>
+                            <p>Envato Customer</p>
+                        </div>
+                        <img src="img/twit.png" class="twit" alt="Twit">
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
+                    <p class="review">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
+                  </div>
                 </div>
-                <div class="slider-content3">
-                    <div class="slider-carousel-text">
-                        <h3>Raisa Moni</h3>
-                        <p>Envato Customer</p>
-                        <img src="img/twit.png" alt="twit">    
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
-                </div>
-                <div class="slider-content4">
-                    <div class="slider-carousel-text">
-                        <h3>Raisa Moni</h3>
-                        <p>Envato Customer</p>
-                        <img src="img/twit.png" alt="twit">    
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
-                </div>
                 <div class="sliderBtn">
                     <a href="#"><img src="img/slideActive.png" alt="slideActive"></a>
                     <a href="#"></a><img src="img/slide.png" alt="slide"></a>
                     <a href="#"></a><img src="img/slide.png" alt="slide"></a>
                     <a href="#"></a><img src="img/slide.png" alt="slide"></a>
                 </div>
-            </div>
         </div>
-    </div>
     </div>
 </section>
 <section class="news" id="news">
@@ -213,62 +213,74 @@
                 <h2 class="head">Latest News From Us</h2>
                 <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</p>
             </div>
-            <div class="newsBlock">
+            <div class="newsBlockAll d-flex">
                 <div class="mask">
                     <img src="img/mask.png" class="maskImg" alt="Mask">
-                    <h2>The master bedroom suite is phenomenally spacious</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#">Continue Reading  <img src="img/arrowNews.png" class="arrowNews" alt="Arrow"></a>
-                </div>
-                <div class="newsBlock1">
-                    <img src="img/newspaper.png" class="newspaper1" alt="Newspaper">
-                    <div class="blocktext1">
-                        <h3>The master bedroom suite is phenomeny spacious</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                    </div>
-                </div>    
-                <div class="newsBlock2">
-                    <img src="img/newspaper2.png" class="newspaper2" alt="Newspaper">
-                    <div class="blocktext2">
-                        <h3>The master bedroom suite is phenomeny spacious</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                    </div>  
-                </div>
-                <div class="newsBlock3">
-                    <img src="img/newspaper3.png" class="newspaper3" alt="Newspaper">
-                    <div class="blocktext3">
-                        <h3>The master bedroom suite is phenomeny spacious</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                    <div class="maskText">
+                        <h2>The master bedroom suite is phenomenally spacious</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#">Continue Reading<img src="img/arrowNews.png" class="arrowNews" alt="Arrow"></a>
                     </div>
                 </div>
+                <div class="smallNews">
+                    <div class="newsBlock">
+                        <img src="img/newspaper.png" class="newspaper1" alt="Newspaper">
+                        <div class="blocktext">
+                            <h3>The master bedroom suite is phenomeny spacious</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                    </div>    
+                    <div class="newsBlock">
+                        <img src="img/newspaper2.png" class="newspaper2" alt="Newspaper">
+                        <div class="blocktext">
+                            <h3>The master bedroom suite is phenomeny spacious</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div>  
+                    </div>
+                    <div class="newsBlock">
+                        <img src="img/newspaper3.png" class="newspaper3" alt="Newspaper">
+                        <div class="blocktext">
+                            <h3>The master bedroom suite is phenomeny spacious</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                    </div>
+                    </div>
             </div>
         </div>
     </div>
 </section>
 <section class="free">
     <div class="container">
-        <div class="freeBlock">
+        <div class="freeBlock d-flex">
             <div class="textFree">
                 <h2>Try 30 Days Free Trial</h2>
                 <p>No credit card reauired</p>
             </div>
-            <a href="#" class="btnFree">Get Started <img src="img/arrowMail.png" alt="arrowFree"></a>
+            <div class="btnStart">
+            <a href="#">Get Started <img src="img/arrowMail.png" alt="arrowFree"></a>
+        </div>
         </div>
     </div>
 </section>
 <section class="mail">
     <div class="container">
+        <div class="mailBlock">
             <h2 class="textMail">AppSon</h2>
-        <div class="input">
-            <input type="mail" placeholder="Enter your Email">
-            <a href="#">SUBSCRIBE</a>
+        <div class="input d-flex">
+            <input type="mail" class="inputMail" placeholder="Enter your Email">
+            <div class="sub">
+                <a href="#">SUBSCRIBE</a>
+            </div>
         </div>
+    </div>
     </div>
 </section>
 <footer class="footer">
-    <div class="container">
+    <div class="container d-flex justify-content-evenly">
+        <div class="footerText">
         <p class="copy">© 2018 Copyright, All Rights Reserved by AppSon</p>
-        <div class="alias">
+        </div>
+        <div class="aliass">
             <a href="#">Terms & Condition</a>
             <a href="#">Privacy Policy</a>
             <a href="#">Help</a>
@@ -278,9 +290,11 @@
             <img src="img/Twitter.png" alt="Twitter">
             <img src="img/YouTube.png" alt="YouTube">
         </div>
-        <img src="img/scrollUp.png" alt="scrollUp">
     </div>
+    <a href="#"><img src="img/scrollUp.png" class="scrollUp" alt="scrollUp"></a>
 </footer>
-<script src="js/index.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
